@@ -111,6 +111,7 @@ const Contact = () => {
                   className="w-full bg-transparent text-lg text-white font-medium placeholder:text-white border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   type="date"
                   name="date"
+                  placeholder="Select Date"
                   required
                 />
               </div>
@@ -129,18 +130,10 @@ const Contact = () => {
                   name="guest_number"
                 >
                   <option value="0">Number of Guests*</option>
-                  <option label="1-2" value="1-2">
-                    1-2
-                  </option>
-                  <option label="2-4" value="2-4">
-                    2-4
-                  </option>
-                  <option label="4-8" value="4-8">
-                    4-8
-                  </option>
-                  <option label="8-10" value="8-10">
-                    8-10
-                  </option>
+                  <option value="1-2">1-2</option>
+                  <option value="2-4">2-4</option>
+                  <option value="4-8">4-8</option>
+                  <option value="8-10">8-10</option>
                 </select>
               </div>
             </div>
