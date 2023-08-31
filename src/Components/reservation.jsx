@@ -225,7 +225,7 @@ const Contact = () => {
           {data.map((item, i) => (
             <div
               tabIndex={0}
-              className="collapse collapse-arrow text-white border-y rounded-none border-base-300 px-10"
+              className="collapse collapse-arrow text-white border-y rounded-none border-base-300 px-5 md:px-10"
               key={item.id}
             >
               <div className="collapse-title text-lg md:text-xl font-medium px-0 py-[30px]">
