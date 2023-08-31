@@ -128,11 +128,29 @@ const Contact = () => {
                   className="w-full bg-black text-lg text-white font-medium placeholder:text-white border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   name="guest_number"
                 >
-                  <option value="0">Number of Guests*</option>
-                  <option label="1-2" value="1-2"></option>
-                  <option label="2-4" value="2-4"></option>
-                  <option label="4-8" value="4-8"></option>
-                  <option label="8-10" value="8-10"></option>
+                  <option className="text-white" value="0">
+                    Number of Guests*
+                  </option>
+                  <option
+                    className="text-white"
+                    label="1-2"
+                    value="1-2"
+                  ></option>
+                  <option
+                    className="text-white"
+                    label="2-4"
+                    value="2-4"
+                  ></option>
+                  <option
+                    className="text-white"
+                    label="4-8"
+                    value="4-8"
+                  ></option>
+                  <option
+                    className="text-white"
+                    label="8-10"
+                    value="8-10"
+                  ></option>
                 </select>
               </div>
             </div>
