@@ -41,14 +41,41 @@ const Contact = () => {
     }, 4000);
   };
 
+  const data = [
+    {
+      title: "Larger Party Policy",
+      subtitle:
+        "Donec quis fermentum felis. Praesent felis orci, vulputate in fermentum ut, semper quis purus. Aenean sit amet sem ac turpis tincidunt dapibus nec eget felis. Donec sit amet est consectetur, dignissim diam ut, rhoncus nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla bibendum nisi vitae mauris accumsan consectetur. Nulla est mi, aliquam cursus nibh eu, iaculis cursus nunc. Nunc quis dapibus turpis. Nullam ornare mi ut malesuada cursus.",
+      id: 1,
+    },
+    {
+      title: "Reservation Timing Policy",
+      subtitle:
+        "Nam sed massa vitae quam pharetra ultricies. Nunc sem felis, aliquam vel viverra vel, convallis vitae ipsum. Donec pretium tortor velit, ut porttitor augue rhoncus eget. Pellentesque tempor, nulla a faucibus dignissim, magna felis consectetur ex, ac sodales ipsum arcu sed tortor. Etiam suscipit ligula vel arcu facilisis venenatis. Aenean commodo elementum ullamcorper. Mauris a diam eget diam consequat euismod eget ac tellus.",
+      id: 2,
+    },
+    {
+      title: "Dining Guidelines",
+      subtitle:
+        "Duis sit amet ante sollicitudin lacus vestibulum fringilla. In vitae mauris quis ipsum mattis viverra. Fusce sed massa sem. Phasellus gravida a arcu in lobortis. Sed quis ante risus. Nulla fringilla a tellus viverra ornare. Etiam nec sem quis arcu efficitur egestas. Curabitur in scelerisque velit. Duis in libero eros. Phasellus eget ullamcorper magna. Aliquam vel dapibus ex. Vivamus et mauris turpis. Cras molestie, sem a facilisis tempus, enim est dignissim ex, vel feugiat erat felis in turpis. Nullam vitae ex vel nulla viverra condimentum.",
+      id: 3,
+    },
+    {
+      title: "Service Charges and Other Policies",
+      subtitle:
+        "Ut mattis ex id est volutpat, a cursus sem posuere. Proin eget ante metus. In a diam varius, fermentum eros id, pellentesque ipsum. Cras odio velit, dapibus sed tempor convallis, luctus et orci. Sed lacinia massa arcu, sed mollis ipsum pulvinar sed. Nullam pulvinar diam id sollicitudin mattis. Nulla tristique diam et mattis pellentesque. Praesent vestibulum ligula purus, sed auctor sem aliquam sed. Nam sagittis urna justo, ac rhoncus augue pretium quis. Nullam magna turpis, tincidunt id ultricies ac, pellentesque et erat. Fusce et hendrerit lacus, quis elementum quam. Pellentesque molestie ipsum nec arcu luctus, sit amet viverra purus finibus.",
+      id: 4,
+    },
+  ];
+
   return (
     <div className="bg-black px-[6.25vw]">
-      <div className="xl:mx-52 py-16 sm:py-24 md:py-32 xl:py-36 border-b-[1px] border-gray-700">
+      <div className="xl:mx-52 py-16 sm:py-24 md:py-32 xl:py-36 border-b border-base-100">
         <div className="text-white mb-16">
-          <h1 className="text-3xl md:text-4xl font-bold leading-10 mb-5 md:mb-10">
+          <h1 className="text-3xl md:text-4xl font-bold mb-5 md:mb-10">
             Reserve a Table
           </h1>
-          <p className="md:text-lg font-medium leading-6">
+          <p className="md:text-lg font-medium md:leading-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique. Duis cursus, mi quis
             viverra ornare, eros dolor interdum nulla, ut commodo diam libero
@@ -61,7 +88,7 @@ const Contact = () => {
             <div className="grid grid-cols-2 gap-5 mb-5">
               <div className="col-span-2 md:col-span-1">
                 <input
-                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-700 border-2 border-gray-700 focus:border-white outline-none duration-150 p-6"
+                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-800 border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   type="text"
                   name="user_name"
                   placeholder="Name*"
@@ -70,7 +97,7 @@ const Contact = () => {
               </div>
               <div className="col-span-2 md:col-span-1">
                 <input
-                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-700 border-2 border-gray-700 focus:border-white outline-none duration-150 p-6"
+                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-800 border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   type="number"
                   name="phone_number"
                   placeholder="Contact number*"
@@ -81,7 +108,7 @@ const Contact = () => {
             <div className="grid grid-cols-3 gap-5 mb-5">
               <div className="col-span-3 md:col-span-1">
                 <input
-                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-700 border-2 border-gray-700 focus:border-white outline-none duration-150 p-6"
+                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-800 border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   type="date"
                   name="date"
                   required
@@ -89,7 +116,7 @@ const Contact = () => {
               </div>
               <div className="col-span-3 md:col-span-1">
                 <input
-                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-700 border-2 border-gray-700 focus:border-white outline-none duration-150 p-6"
+                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-800 border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   type="text"
                   name="time"
                   placeholder="6pm*"
@@ -98,7 +125,7 @@ const Contact = () => {
               </div>
               <div className="col-span-3 md:col-span-1">
                 <select
-                  className="w-full bg-black text-lg text-white font-medium placeholder:text-gray-700 border-2 border-gray-700 focus:border-white outline-none duration-150 p-6"
+                  className="w-full bg-black text-lg text-white font-medium border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   name="guest_number"
                 >
                   <option value="0">Number of Guests*</option>
@@ -111,12 +138,13 @@ const Contact = () => {
             </div>
             <div className="mb-5">
               <textarea
-                className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-700 border-2 border-gray-700 focus:border-white outline-none duration-150 p-6"
+                className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-800 border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                 name="additional_information"
                 placeholder="Additional information"
                 rows="4"
               />
             </div>
+
             <div className="mb-5 relative">
               <img
                 className="w-full"
@@ -174,9 +202,10 @@ const Contact = () => {
                 />
               </div>
             </div>
+
             <div>
               <button
-                className="w-full bg-transparent text-gray-700 text-2xl hover:text-white font-medium border-4 border-gray-700 hover:border-white outline-none cursor-pointer duration-150 p-6"
+                className="w-full text-gray-800 text-2xl hover:text-white font-medium border-4 border-base-100 hover:border-white duration-150 p-6"
                 onClick={notify}
                 type="submit"
               >
@@ -186,15 +215,29 @@ const Contact = () => {
           </form>
         </div>
       </div>
-
       <div className="xl:mx-52 py-16 sm:py-24 md:py-32 xl:py-36">
         <div className="text-white mb-16">
-          <h1 className="text-3xl md:text-4xl font-bold leading-10 mb-5 md:mb-10">
+          <h1 className="text-3xl md:text-4xl font-bold mb-5 md:mb-10">
             Booking and Cancellation Policy
           </h1>
         </div>
+        <div>
+          {data.map((item, i) => (
+            <div
+              tabIndex={0}
+              className="collapse collapse-arrow text-white border-y rounded-none border-base-300 px-10"
+              key={item.id}
+            >
+              <div className="collapse-title text-lg md:text-xl font-medium px-0 py-[30px]">
+                {item.title}
+              </div>
+              <div className="collapse-content px-0">
+                <p className="md:text-md md:leading-5 mb-6">{item.subtitle}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-
       <ToastContainer />
     </div>
   );
