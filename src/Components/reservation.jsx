@@ -107,11 +107,15 @@ const Contact = () => {
             </div>
             <div className="grid grid-cols-3 gap-5 mb-5">
               <div className="col-span-3 md:col-span-1">
+                <label>
+                  <div className="md:hidden text-lg text-white font-medium mb-2">
+                    Select Date
+                  </div>
+                </label>
                 <input
-                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-white border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
+                  className="w-full bg-transparent text-lg text-white font-medium border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   type="date"
                   name="date"
-                  placeholder="Select Date"
                   required
                 />
               </div>
@@ -129,9 +133,7 @@ const Contact = () => {
                   className="w-full bg-black text-lg text-white font-medium border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   name="guest_number"
                 >
-                  <option value="0">
-                    <div className="p-6">Number of Guests*</div>
-                  </option>
+                  <option value="0">Number of Guests*</option>
                   <option value="1-2">1-2</option>
                   <option value="2-4">2-4</option>
                   <option value="4-8">4-8</option>
