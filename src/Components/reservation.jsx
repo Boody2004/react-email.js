@@ -108,7 +108,7 @@ const Contact = () => {
             <div className="grid grid-cols-3 gap-5 mb-5">
               <div className="col-span-3 md:col-span-1">
                 <input
-                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-gray-800 border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
+                  className="w-full bg-transparent text-lg text-white font-medium placeholder:text-white border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   type="date"
                   name="date"
                   required
@@ -125,7 +125,7 @@ const Contact = () => {
               </div>
               <div className="col-span-3 md:col-span-1">
                 <select
-                  className="w-full bg-black text-lg text-white font-medium border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
+                  className="w-full bg-black text-lg text-white font-medium placeholder:text-white border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
                   name="guest_number"
                 >
                   <option value="0">Number of Guests*</option>
@@ -144,7 +144,6 @@ const Contact = () => {
                 rows="4"
               />
             </div>
-
             <div className="mb-5 relative">
               <img
                 className="w-full"
@@ -153,56 +152,55 @@ const Contact = () => {
               />
               <div>
                 <input
-                  className="absolute top-[52.5%] left-[11%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
+                  className="radio md:border-4 bg-gray-800 absolute top-[52.5%] left-[11%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
                   type="radio"
                   value="1"
                   name="table_number"
                 />
                 <input
-                  className="absolute top-[53%] left-[22.5%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
+                  className="radio md:border-4 bg-gray-800 absolute top-[53%] left-[22.5%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
                   type="radio"
                   value="2"
                   name="table_number"
                 />
                 <input
-                  className="absolute top-[53.5%] left-[38.5%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
+                  className="radio md:border-4 bg-gray-800 absolute top-[53.5%] left-[38.5%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
                   type="radio"
                   value="3"
                   name="table_number"
                 />
                 <input
-                  className="absolute top-[54%] left-[56%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
+                  className="radio md:border-4 bg-gray-800 absolute top-[54%] left-[56%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
                   type="radio"
                   value="4"
                   name="table_number"
                 />
                 <input
-                  className="absolute top-[54.5%] left-[77.5%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
+                  className="radio md:border-4 bg-gray-800 absolute top-[54.5%] left-[77.5%] w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-9 lg:h-9"
                   type="radio"
                   value="5"
                   name="table_number"
                 />
                 <input
-                  className="absolute top-[62%] left-[7%] w-4 h-4 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-10 lg:h-10"
+                  className="radio md:border-4 bg-gray-800 absolute top-[62%] left-[7%] w-4 h-4 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-10 lg:h-10"
                   type="radio"
                   value="6"
                   name="table_number"
                 />
                 <input
-                  className="absolute top-[65%] left-[39%] w-4 h-4 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-10 lg:h-10"
+                  className="radio md:border-4 bg-gray-800 absolute top-[65%] left-[39%] w-4 h-4 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-10 lg:h-10"
                   type="radio"
                   value="7"
                   name="table_number"
                 />
                 <input
-                  className="absolute top-[68%] left-[78%] w-4 h-4 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-10 lg:h-10"
+                  className="radio md:border-4 bg-gray-800 absolute top-[68%] left-[78%] w-4 h-4 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-10 lg:h-10"
                   type="radio"
                   value="8"
                   name="table_number"
                 />
               </div>
             </div>
-
             <div>
               <button
                 className="w-full text-gray-800 text-2xl hover:text-white font-medium border-4 border-base-100 hover:border-white duration-150 p-6"
