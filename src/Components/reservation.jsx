@@ -76,12 +76,7 @@ const Contact = () => {
           <div className="grid grid-cols-3 gap-5 mb-5">
             <div className="col-span-3 md:col-span-1">
               <p className="md:hidden subtitle mb-2">Select Date*</p>
-              <input
-                className="w-full bg-black text-lg text-white font-medium placeholder:text-gray-800 border-2 border-base-100 focus:border-white outline-none duration-150 p-6"
-                type="date"
-                name="date"
-                required
-              />
+              <input className="input-style" type="date" name="date" required />
             </div>
             <div className="col-span-3 md:col-span-1">
               <input
