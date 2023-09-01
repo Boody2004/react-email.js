@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.size {
+  @apply xl:mx-52 py-16 sm:py-20 md:py-28;
+}
+.title {
+  @apply text-white text-3xl md:text-4xl font-bold mb-5 md:mb-10;
+}
+.subtitle {
+  @apply text-white md:text-lg font-medium md:leading-6;
+}
+.input-style {
+  @apply w-full bg-black text-lg text-white font-medium placeholder:text-gray-800 border-2 border-base-100 focus:border-white outline-none duration-150 p-6;
+}
+.radio-style {
+  @apply radio md:border-4 bg-gray-800 absolute;
+}

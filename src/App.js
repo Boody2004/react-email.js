@@ -1,10 +1,13 @@
+import Location from "./Components/location.jsx";
 import Reservation from "./Components/reservation.jsx";
-import "./Style/App.css";
+import Policy from "./Components/policy.jsx";
 
 function App() {
   return (
-    <section>
+    <section className="bg-black px-[6.25vw]">
+      <Location />
       <Reservation />
+      <Policy />
     </section>
   );
 }
