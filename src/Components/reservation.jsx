@@ -21,6 +21,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          notify();
           console.log(result.text);
         },
         (error) => {
@@ -164,7 +165,6 @@ const Contact = () => {
           </div>
           <button
             className="w-full text-gray-800 hover:text-white text-2xl font-medium border-4 border-base-100 hover:border-white duration-150 p-6"
-            onClick={notify}
             type="submit"
           >
             Submit Reservation
