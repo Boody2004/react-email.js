@@ -6,14 +6,14 @@
   @apply xl:mx-52 py-16 sm:py-20 md:py-28;
 }
 .title {
-  @apply text-3xl md:text-4xl font-bold mb-5 md:mb-10;
+  @apply text-mainText text-3xl md:text-5xl font-bold mb-5 md:mb-10;
 }
 .subtitle {
-  @apply text-white md:text-lg font-medium md:leading-6;
+  @apply text-secText md:text-lg font-medium md:leading-6;
 }
 .input-style {
-  @apply w-full bg-black text-lg text-white font-medium placeholder:text-gray-800 border-2 border-base-100 focus:border-white outline-none duration-150 p-6;
+  @apply w-full bg-secText text-lg text-mainColor font-medium placeholder:text-mainColor border-2 border-secText outline-none duration-150 p-5;
 }
 .radio-style {
-  @apply radio md:border-4 bg-gray-800 absolute;
+  @apply radio md:border-4 bg-mainColor absolute;
 }

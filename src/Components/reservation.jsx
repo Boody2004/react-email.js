@@ -171,7 +171,7 @@ const Contact = () => {
             </div>
           </div>
           <button
-            className="w-full text-gray-800 hover:text-white text-2xl font-medium border-4 border-base-100 hover:border-white duration-150 p-6"
+            className="w-full bg-mainText hover:bg-transparent text-secText hover:text-mainText text-2xl font-medium border-4 rounded-[5px] border-mainText duration-200 p-6"
             type="submit"
           >
             Submit Reservation
