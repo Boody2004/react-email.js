@@ -39,7 +39,7 @@ const location = () => {
         </div>
       </div>
       <div className="text-center">
-        <h1 className="title text-2xl md:text-3xl font-bold mb-2 md:mb-5">
+        <h1 className="title text-3xl md:text-5xl font-bold mb-2 md:mb-5">
           Hours
         </h1>
         <p className="subtitle mb-2 md:mb-5">Monday - Sunday: 14:00 - 01:00</p>
