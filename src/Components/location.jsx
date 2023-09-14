@@ -1,14 +1,31 @@
 const location = () => {
   return (
     <div className="size border-b border-base-100">
-      <div className="mb-16">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227125.8649277949!2d33.616901832444604!3d27.19271360459312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145287b2cd3dbbb3%3A0x2db807f98bd3c360!2sHurghada%2C%20Red%20Sea%20Governorate!5e0!3m2!1sen!2seg!4v1693523236134!5m2!1sen!2seg"
-          width="100%"
-          height="600"
-          style={{ border: "0" }}
-          loading="lazy"
-        ></iframe>
+      <div className="grid grid-cols-2 gap-10 mb-16">
+        <div className="col-span-2 lg:col-span-1">
+          <h1 className="text-5xl text-mainText font-semibold mb-5">
+            Sheraton
+          </h1>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3547.954853746437!2d33.83269158647951!3d27.22056718612419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145287b12e428143%3A0x8d0772063857dc37!2sMoby%20Dick%20Restaurant!5e0!3m2!1sen!2sus!4v1694654894665!5m2!1sen!2sus"
+            width="100%"
+            height="600"
+            style={{ border: "0" }}
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div className="col-span-2 lg:col-span-1">
+          <h1 className="text-5xl text-mainText font-semibold mb-5">
+            Steigenberger
+          </h1>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2209.2886963149613!2d33.82323992756354!3d27.163264859510015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145287baf1b93d67%3A0x907350782c4e2bdd!2sMoby%20Dick%20Restaurant%2C%20Aldau%20Promenade%2C%20Steigenberger%20pure%20lifestyle!5e0!3m2!1sen!2sus!4v1694654952380!5m2!1sen!2sus"
+            width="100%"
+            height="600"
+            style={{ border: "0" }}
+            loading="lazy"
+          ></iframe>
+        </div>
       </div>
       <div className="grid grid-cols-2 md:grid-flow-col gap-7">
         <div className="col-span-2 md:col-span-1">

@@ -74,12 +74,12 @@ const Contact = () => {
               />
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-5 mb-5">
-            <div className="col-span-3 md:col-span-1">
+          <div className="grid grid-cols-4 gap-5 mb-5">
+            <div className="col-span-4 md:col-span-1">
               <p className="md:hidden subtitle mb-2">Select Date*</p>
               <input className="input-style" type="date" name="date" required />
             </div>
-            <div className="col-span-3 md:col-span-1">
+            <div className="col-span-4 md:col-span-1">
               <input
                 className="input-style"
                 type="text"
@@ -88,13 +88,20 @@ const Contact = () => {
                 required
               />
             </div>
-            <div className="col-span-3 md:col-span-1">
+            <div className="col-span-4 md:col-span-1">
               <select className="input-style" name="guest_number">
                 <option value="0">Number of Guests*</option>
                 <option value="1-2">1-2</option>
                 <option value="2-4">2-4</option>
                 <option value="4-8">4-8</option>
                 <option value="8-10">8-10</option>
+              </select>
+            </div>
+            <div className="col-span-4 md:col-span-1">
+              <select className="input-style" name="location">
+                <option value="0">Location*</option>
+                <option value="Sheraton">Sheraton</option>
+                <option value="Steigenberger">Steigenberger</option>
               </select>
             </div>
           </div>

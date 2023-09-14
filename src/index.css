@@ -6,7 +6,7 @@
   @apply xl:mx-52 py-16 sm:py-20 md:py-28;
 }
 .title {
-  @apply text-white text-3xl md:text-4xl font-bold mb-5 md:mb-10;
+  @apply text-3xl md:text-4xl font-bold mb-5 md:mb-10;
 }
 .subtitle {
   @apply text-white md:text-lg font-medium md:leading-6;
